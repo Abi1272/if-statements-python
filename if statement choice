@@ -1,0 +1,9 @@
+choice = input("Do you prefer pikachu, bulbasaur, or chizard?")
+if choice == "pikachu":
+  print("pika pika!")
+elif choice == "bulbasaur":
+  print("bubble bubble!")
+elif choice == "chizard":
+  print("lizard lizard!")
+else:
+  print("that is not an option :(")
