@@ -1,0 +1,9 @@
+penguin = int(input("Enter amount of penguins you have:"))
+if penguin < 3:
+    print("That's not enough penguins!")
+elif penguin <5:
+    print("they're kinda low on penguins")
+elif penguin <80:
+    print("That's a perfect amount of penguin's")
+else:
+    print("They're going to cause a PENGAPOCALYPSE")
