@@ -1,0 +1,7 @@
+score = int(input("What is your top score:"))
+if score < 100:
+    print("get gud.")
+elif score <=200:
+    print("you ok.")
+elif score >200:
+    print("you are awesome!")
