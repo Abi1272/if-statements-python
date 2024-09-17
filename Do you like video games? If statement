@@ -1,0 +1,5 @@
+choice = input("Do you like video games?")
+if choice == "yes":
+    print("you are cool.")
+if choice == "no":
+    print("you are not cool.")
