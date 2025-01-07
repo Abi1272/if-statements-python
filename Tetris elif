@@ -1,0 +1,9 @@
+Tetris = int(input("Enter how many lines you cleared in Tetris: "))
+if Tetris < 100:
+    print("Novice")
+elif Tetris < 200:
+    print("Intermediate")
+elif Tetris < 300:
+    print("Advanced")
+else:
+    print("Expert")
